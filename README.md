@@ -1,5 +1,12 @@
 # VDB AI architect: training results on AMD Instinct MI300X
 
+![AMD ROCm](https://img.shields.io/badge/AMD-ROCm-ED1C24?logo=amd&logoColor=white)
+![MI300X](https://img.shields.io/badge/GPU-Instinct%20MI300X%20192%20GB-ED1C24)
+![vLLM](https://img.shields.io/badge/serving-vLLM-30A2FF)
+![LoRA](https://img.shields.io/badge/fine--tuning-LoRA%20%2F%20peft-FFD21E?logo=huggingface&logoColor=black)
+![Student](https://img.shields.io/badge/student%20locked%20test-50.7%25-2a78d6)
+![Unsafe](https://img.shields.io/badge/unsafe%20answers-0-2e7d32)
+
 VDB is a Swedish house-design CAD application with an AI architect. A user describes a change in plain Swedish, for example
 "move the kitchen window 40 cm east" or "make bedroom 1 a metre wider". The assistant then makes exactly that change in the
 drawing: the right object, the right place, the right size. It never makes an unsafe structural change without confirmation.
@@ -75,6 +82,7 @@ Costs are hours × $1.99 per hour.
 - Student: from 50.7 % toward **70 %** on the locked test set, always with **0 unsafe answers**.
 - The local model replaces the paid cloud API for every drawing chat in the app.
 - Next: more teacher rounds on the remaining ≈ 7,000 hard cases, an 8B student compared against the 4B, and teacher training for 13 new CAD tools that today block about 1,200 questions.
+- Wall detection for uploaded plans: see **[vdb-rekryt-results](https://github.com/andreeludvigsson/vdb-rekryt-results)** (F1 0.97 on VDB's own drawings, 0.88 on scanned real plans).
 - **One step at a time: Sweden first** (Swedish language, building rules and drawing conventions), **then the Nordics, then Europe, then the world.**
 
 ---
