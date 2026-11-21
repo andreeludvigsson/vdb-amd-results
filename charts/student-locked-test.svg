@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" role="img" aria-label="Student model on the locked test set: Qwen3-4B untrained 32.3 percent, after training on AMD MI300X 50.7 percent">
+  <rect width="720" height="380" rx="12" fill="#fcfcfb"/>
+  <text x="32" y="44" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600" fill="#0b0b0b">Student (Qwen3-4B) on the locked test set</text>
+  <text x="32" y="70" font-family="Inter, Arial, sans-serif" font-size="14" fill="#5f5e5a">Share of 300 never-trained-on questions answered correctly · 0 unsafe answers</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="13" fill="#898781">
+    <line x1="88" y1="300" x2="688" y2="300" stroke="#c9c8c1" stroke-width="1"/>
+    <line x1="88" y1="216.7" x2="688" y2="216.7" stroke="#e1e0d9" stroke-width="1"/>
+    <line x1="88" y1="133.3" x2="688" y2="133.3" stroke="#e1e0d9" stroke-width="1"/>
+    <text x="76" y="304" text-anchor="end">0%</text>
+    <text x="76" y="221" text-anchor="end">25%</text>
+    <text x="76" y="138" text-anchor="end">50%</text>
+  </g>
+  <path d="M188 300 V196.3 a4 4 0 0 1 4 -4 H292 a4 4 0 0 1 4 4 V300 Z" fill="#2a78d6" opacity="0.45"/>
+  <path d="M448 300 V135 a4 4 0 0 1 4 -4 H552 a4 4 0 0 1 4 4 V300 Z" fill="#2a78d6"/>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <text x="242" y="180" font-size="22" font-weight="600" fill="#0b0b0b">32.3%</text>
+    <text x="502" y="119" font-size="22" font-weight="600" fill="#0b0b0b">50.7%</text>
+    <text x="242" y="326" font-size="14" fill="#0b0b0b">Untrained</text>
+    <text x="242" y="346" font-size="13" fill="#5f5e5a">same model, same day, same code</text>
+    <text x="502" y="326" font-size="14" fill="#0b0b0b">Trained on AMD MI300X</text>
+    <text x="502" y="346" font-size="13" fill="#5f5e5a">vdb-arkitekt:v1 · +18.4 points</text>
+  </g>
+</svg>
